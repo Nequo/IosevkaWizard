@@ -1,0 +1,20 @@
+[buildPlans.iosevka-wizard-term]
+family = "IosevkaWizardTerm"
+spacing = "term"
+serifs = "sans"
+no-cv-ss = true
+
+  [buildPlans.iosevka-wizard-term.variants]
+  inherits = "ss15"
+
+    [buildPlans.iosevka-wizard-term.variants.design]
+    a = "double-storey-tailed"
+    b = "toothless-corner"
+    d = "toothless-corner-serifless"
+    g = "double-storey-open"
+    zero = "reverse-slashed"
+
+[buildPlans.iosevka-wizard-term.weights.regular]
+shape = 400
+menu = 400
+css = 400
